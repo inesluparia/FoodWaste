@@ -1,6 +1,8 @@
 html {
     background-color: white;
     font-family: sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 /* (templates/fragments/header) */
 .header{
@@ -57,10 +59,41 @@ button:hover{
 
 }
 
-.home-pic-container {
-    background-image: url('/static/vegetables.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+* {
+    padding: 15px;
+}
+header img {
+    float: left;
+}
 
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    display: inline;
+    float: right;
+    margin-right: 30px;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: darkgreen;
+    font-weight: 800;
+}
+
+main img {
+    border-radius: 40px;
+    float: left;
+    /*box-shadow:; ??? */
+}
+
+button {
+    border-radius: 20px;
 }
