@@ -1,10 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/head">Default Head
+    <title>Logged in</title>
 </head>
+<header th:replace="fragments/header">Default Header</header>
+
 <body>
 
+<h1> Hjælp med at nedbringe madspild</h1>
+
+<h4> Hvis din virksomhed ønsker at nedbringe madspild i Danmark, er du det rigtige sted. </h4>
+<p> 17% af verdens mad ender i affaldspanden. Det vil vi ændre på, ved at få solgt vare som udløber, i stedet for at smide dem ud.
+    </p>
+
+<p>Hvis du endnu ikke har en konto, tilmelde dig for en personlig oplevelse </p>
+<br>
+<button>
+    <a href="/sign-up">Opret en konto</a>
+</button>
+
+
 </body>
+<footer th:replace="fragments/footer">Default</footer>
 </html>

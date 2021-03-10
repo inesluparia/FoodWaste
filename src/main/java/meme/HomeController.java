@@ -22,4 +22,8 @@ public String logIn(){ return "log-in.html"; }
     public String loggedIn(){
         return "logged-in.html";
     }
+
+@GetMapping("/company")
+    public String company(){
+    return "company.html"; }
 }
