@@ -7,103 +7,100 @@ html {
 
 
 /* (templates/fragments/header) */
-.header{
+.header {
     background-color: lightskyblue;
 }
-.nave-bar{
+
+.nave-bar {
     box-sizing: border-box;
     margin: 0;
     padding: 0px;
     border-radius: 50px;
-    background-color: rgba(0,136,169,1);
+    background-color: rgba(0, 136, 169, 1);
 }
-li, a{
+
+li, a {
     font-weight: 500;
     font-size: 16px;
     color: black;
     text-decoration: none;
 }
-header{
+
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10% ;
+    padding: 30px 10%;
 }
 
-
-.photo img {
-    width: 100%;
-    height: auto;
-
-
-}
-
-.row {
-
+.container {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    position: fixed;
+    bottom: 10px;
+    left: 20%;
+
 }
 
-.column {
-
-    flex: 33.33%;
-    padding: 5px;
-
-    width: 200px;
-    height: 200px;
+.container img {
     object-fit: cover;
+    width: 150px;
+    height: 150px;
 }
 
 #Ines {
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
 }
 
-#Anne{
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
+
+#Anne {
 }
 
-#Asger{
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
+#Asger {
 }
 
-.logo{
+#tobias {
+}
+
+.logo {
     cursor: pointer;
 }
-.nav-link{
+
+.nav-link {
     list-style: none;
 }
-.nav-link li{
+
+.nav-link li {
     display: inline-block;
     padding: 0px 20px;
 }
-.nav-link li a{
+
+.nav-link li a {
     transition: all 0.3s ease 0s;
 }
-.nav-link li a:hover{
+
+.nav-link li a:hover {
     color: lightskyblue;
 }
 
-button{
-    background-color:rgba(0,136,169,1);
+button {
+    background-color: rgba(0, 136, 169, 1);
     padding: 9px 25px;
     border: none;
     border-radius: 50px;
-    cursor: pointer ;
+    cursor: pointer;
     transition: all 0.3s ease 0s
 }
 
-button:hover{
-    background-color:rgba(0,136,169,0.8);
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
 }
 
 * {
     padding: 10px;
 }
+
 header img {
     float: left;
 }
@@ -121,12 +118,14 @@ ul {
     padding: 0;
     overflow: hidden;
 }
+
 li {
     display: inline;
     float: right;
     margin-right: 30px;
     padding: 10px;
 }
+
 a {
     text-decoration: none;
     color: black;
@@ -142,13 +141,14 @@ main img {
     float: left;
     /*box-shadow:; ??? */
 }
+
 form {
     margin-left: 100px;
 }
 
 form img {
     float: right;
-    margin-top:50px;
+    margin-top: 50px;
     margin-right: 300px;
 }
 
