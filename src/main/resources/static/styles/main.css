@@ -7,15 +7,13 @@ html {
 
 
 /* (templates/fragments/header) */
-.header{
-    background-color: lightskyblue;
-}
+
 .nave-bar{
     box-sizing: border-box;
     margin: 0;
     padding: 0px;
     border-radius: 50px;
-    background-color: rgba(0,136,169,1);
+    background-color:darkgreen;
 }
 li, a{
     font-weight: 500;
@@ -48,16 +46,17 @@ header{
 }
 
 button{
-    background-color:rgba(0,136,169,1);
+    background-color:darkgreen;
     padding: 9px 25px;
     border: none;
     border-radius: 50px;
     cursor: pointer ;
-    transition: all 0.3s ease 0s
+    transition: all 0.3s ease 0s;
+    color: white;
 }
 
 button:hover{
-    background-color:rgba(0,136,169,0.8);
+    background-color:green;
 }
 
 * {
@@ -69,7 +68,6 @@ header img {
 
 
 footer {
-    position: fixed;
     left: 10px;
     bottom: 10px;
 }
@@ -88,7 +86,7 @@ ul {
 }
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 a:hover {
@@ -114,3 +112,14 @@ form img {
 button {
     border-radius: 20px;
 }
+
+.map{
+    margin-left: 290px;
+    width: 600px;
+
+}
+
+.forretninger{
+    border: 1px solid steelblue;
+}
+

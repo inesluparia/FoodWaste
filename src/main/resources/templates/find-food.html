@@ -9,14 +9,14 @@
 
 <header th:replace="fragments/header">Default Header</header>
 <div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1354641.7822197515!2d10.277143933019875!3d56.08648293739707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sda!2sdk!4v1615374133211!5m2!1sda!2sdk" width="600" height="450" style="border:5px green;" allowfullscreen="" loading="lazy"></iframe>
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1354641.7822197515!2d10.277143933019875!3d56.08648293739707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sda!2sdk!4v1615374133211!5m2!1sda!2sdk" width="300" height="300" style="border:5px green;" allowfullscreen="" loading="lazy"></iframe>
     <br>
     <input placeholder="Postnummer" type="text" id="postnummer" name="postnummer" width="200"><br>
     <br>
     <button type="submit" name="submit">Find</button><br>
 </div>
 <div th:class="find">
-    <ul>
+    <ul class="forretninger">
         <li>pizzaria</li>
         <li>Bager</li>
         <li>Grøntsags handler</li>
