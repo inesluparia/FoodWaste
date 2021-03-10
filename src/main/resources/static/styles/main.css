@@ -105,6 +105,7 @@ header img {
 
 
 footer {
+    position: absolute;
     left: 10px;
     bottom: 10px;
 }
