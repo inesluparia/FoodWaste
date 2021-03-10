@@ -1,10 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/head">Default Head
+    <title>Logged in</title>
 </head>
+<header th:replace="fragments/header">Default Header</header>
 <body>
 
+    <h4> Welkommen tilbage USERNAME</h4>
+
+    <h4> Favorit butikker:</h4>
+
+    <ul>
+        <li>Leo's Pizza</li>
+        <li>Bollyfood</li>
+        <li>Max Burger</li>
+        <li>Iki Sushi</li>
+    </ul>
+
+    <h4> Profil info: </h4>
+    <ul>
+        <li> Navn: Anne Olsen</li>
+        <li>Adresse: Vesterbrogade 106a</li>
+        <li>Postnummer: 1620</li>
+        <li>E-mail: annejko@hotmail.com</li>
+    </ul>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18004.212748794078!2d12.530785258426846!3d55.66244250385718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465253764030803b%3A0xf12e177be3968203!2sVesterbro%2C%20K%C3%B8benhavn!5e0!3m2!1sda!2sdk!4v1615376945991!5m2!1sda!2sdk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+
+    <h4> Indtast postnummer</h4>
+    <input placeholder="Postnummer" type="text" id="postnummer" name="postnummer" width="200"><br>
+    <br>
+    <button type="submit" name="submit">Find</button><br>
+
+    <ul>
+        <li>Leo's Pizza</li>
+        <li>Kin Kin</li>
+        <li>Wok</li>
+        <li>Iki Sushi</li>
+        <li>Pho Saigon</li>
+        <li>Kaffestuen Vesterbro</li>
+        <li>Al Diwan</li>
+        <li>Poulet</li>
+        <li>Izumi</li>
+    </ul>
+
+
 </body>
+<footer th:replace="fragments/footer">Default</footer>
 </html>
