@@ -80,7 +80,7 @@ ul {
     padding: 0;
     overflow: hidden;
 }
-li {
+.nav-link li {
     display: inline;
     float: right;
     margin-right: 30px;
