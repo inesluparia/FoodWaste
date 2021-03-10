@@ -66,6 +66,13 @@ header img {
     float: left;
 }
 
+
+footer {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+}
+
 ul {
     list-style-type: none;
     margin: 5px;
