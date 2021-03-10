@@ -28,6 +28,25 @@ header{
     padding: 30px 10% ;
 }
 
+
+.photo img {
+    width: 100%;
+    height: auto;
+}
+
+#Ines {
+    height: 200px;
+    width: 200px;
+}
+#Anne{
+    height: 200px;
+    width: 200px;
+}
+#Asger{
+    height: 200px;
+    width: 200px;
+}
+
 .logo{
     cursor: pointer;
 }
