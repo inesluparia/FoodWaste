@@ -32,19 +32,41 @@ header{
 .photo img {
     width: 100%;
     height: auto;
+
+
+}
+
+.row {
+
+    display: flex;
+}
+
+.column {
+
+    flex: 33.33%;
+    padding: 5px;
+
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
 
 #Ines {
-    height: 200px;
     width: 200px;
+    height: 200px;
+    overflow: hidden;
 }
+
 #Anne{
-    height: 200px;
     width: 200px;
+    height: 200px;
+    overflow: hidden;
 }
+
 #Asger{
-    height: 200px;
     width: 200px;
+    height: 200px;
+    overflow: hidden;
 }
 
 .logo{
