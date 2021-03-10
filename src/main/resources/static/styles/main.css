@@ -79,7 +79,7 @@ button:hover{
 }
 
 * {
-    padding: 15px;
+    padding: 10px;
 }
 header img {
     float: left;
@@ -118,6 +118,15 @@ main img {
     border-radius: 40px;
     float: left;
     /*box-shadow:; ??? */
+}
+form {
+    margin-left: 100px;
+}
+
+form img {
+    float: right;
+    margin-top:50px;
+    margin-right: 300px;
 }
 
 button {
