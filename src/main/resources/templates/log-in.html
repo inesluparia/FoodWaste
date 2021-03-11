@@ -3,7 +3,7 @@
 <head th:replace="fragments/head">Default Head</head>
 <header th:replace="fragments/header">Default Header</header>
 <body>
-<form action="/submitLogIn" method="post">
+<form action="/logged-in" method="get">
 
     <img src="carrots.png" alt="carrots-pic" width="400px" height="auto"/>
 
@@ -11,7 +11,7 @@
     <br>
     <input placeholder="E-mail" type="text" id="email" name="email" width="200"><br>
     <br>
-    <input placeholder="Password" type="password" id="pasword" name="password" width="200"><br>
+    <input placeholder="Password" type="password" id="password" name="password" width="200"><br>
     <br>
     <button type="submit" name="submit">Log ind</button><br>
     <br>
