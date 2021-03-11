@@ -8,12 +8,12 @@ html {
 
 /* (templates/fragments/header) */
 
-.nave-bar{
+.nave-bar {
     box-sizing: border-box;
     margin: 0;
     padding: 0px;
     border-radius: 50px;
-    background-color:darkgreen;
+    background-color: darkgreen;
 }
 
 li, a {
@@ -30,12 +30,21 @@ header {
     padding: 30px 10%;
 }
 
+.about-us-description {
+    margin-top: 30px;
+
+
+
+    width: 200px;
+    word-wrap: break-word;
+}
+
 .container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 
-    position: fixed;
+    position: absolute;
     bottom: 10px;
     left: 20%;
 
@@ -47,6 +56,15 @@ header {
     height: 150px;
 }
 
+.img-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    position: absolute;
+    bottom: 10px;
+    left: 20%;
+}
 
 .logo {
     cursor: pointer;
@@ -69,18 +87,18 @@ header {
     color: lightskyblue;
 }
 
-button{
-    background-color:darkgreen;
+button {
+    background-color: darkgreen;
     padding: 9px 25px;
     border: none;
     border-radius: 50px;
-    cursor: pointer ;
+    cursor: pointer;
     transition: all 0.3s ease 0s;
     color: white;
 }
 
-button:hover{
-    background-color:green;
+button:hover {
+    background-color: green;
 }
 
 * {
@@ -104,6 +122,7 @@ ul {
     padding: 0;
     overflow: hidden;
 }
+
 .nav-link li {
     display: inline;
     float: right;
@@ -141,13 +160,13 @@ button {
     border-radius: 20px;
 }
 
-.map{
+.map {
     margin-left: 290px;
     width: 600px;
 
 }
 
-.forretninger{
+.forretninger {
     border: 1px solid steelblue;
 }
 
