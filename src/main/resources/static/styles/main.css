@@ -31,9 +31,10 @@ header {
 }
 
 .about-us-description {
-    margin-top: 30px;
-    width: 200px;
+    margin-top: 50px;
+    width: 300px;
     word-wrap: break-word;
+    font-size: larger;
 }
 
 .container-4-pics {
@@ -46,6 +47,18 @@ header {
 
     font-size: medium;
     text-align: center;
+}
+
+.food-waste-photo div {
+    position: fixed;
+    width: 500px;
+    height: 500px;
+}
+
+.food-waste-photo img {
+
+    object-fit: cover;
+    width: 500px;
 }
 
 .container-4-pics img {
