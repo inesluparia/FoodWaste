@@ -71,7 +71,7 @@ header {
 }
 
 button {
-    background-color:darkgreen;
+    background-color:darkseagreen;
     padding: 9px 25px;
     border: none;
     border-radius: 30px;
@@ -149,4 +149,10 @@ td, th {
 
 tr:nth-child(even) {
     background-color: darkseagreen;
+}
+
+#find-food, td, th{
+    width: 20%;
+    margin: 30px;
+    text-align: left;
 }
