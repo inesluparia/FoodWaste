@@ -31,7 +31,7 @@ header {
 }
 
 .about-us-description {
-    margin-top: 50px;
+    margin-top: 100px;
     width: 300px;
     word-wrap: break-word;
     font-size: larger;
@@ -49,15 +49,13 @@ header {
     text-align: center;
 }
 
-.food-waste-photo div {
+.food-waste-photo {
     position: fixed;
-    width: 500px;
-    height: 500px;
+    bottom: 300px;
+    left: 40%;
 }
 
 .food-waste-photo img {
-
-    object-fit: cover;
     width: 500px;
 }
 
